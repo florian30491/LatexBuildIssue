@@ -41,6 +41,6 @@ jobs:
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: ExerciseSheets/ExerciseSheet1/main.tex
-        ENV:
-          ".:./ExerciseSheets//:"
+        env:
+          TEXINPUTS: ".:./ExerciseSheets//:"
           
